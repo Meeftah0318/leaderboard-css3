@@ -31,6 +31,7 @@ nav{
     background-color: #562EFF;
     display: flex;
     justify-content: center;
+    padding: 23px 0 18px; 
 }
 
 .nav-items {
@@ -45,6 +46,7 @@ nav{
 .icon img{
     width: 41px;
     height: 51px;
+    margin-right: 16px;
 }
 
 .icon h1 {
@@ -52,14 +54,16 @@ nav{
 }
 .menu {
     display: flex;
+    align-items: center;
+
 }
 .menu ul {
     display: flex;
+   
     }
 .menu li {
-    display: ;
     list-style: none;
-    margin-right: 10px;
+    margin-right: 36px;
     color: white;
 }
 .menu img {
@@ -151,7 +155,7 @@ hr{
     box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.24);
     padding: 12px;
 }
-.course a {
+.course a, p {
     text-decoration: none;
     font-size: 15px;
     color: #ED6B4F;
