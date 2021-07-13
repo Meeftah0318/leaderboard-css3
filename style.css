@@ -26,7 +26,46 @@ main{
     width: 870px;
     border-radius: 5px;
 }
+/* nav */
+nav{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+}
 
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+.icon img{
+    width: 41px;
+    height: 51px;
+}
+
+.icon h1 {
+    color: white;
+}
+.menu {
+    display: flex;
+}
+.menu ul {
+    display: flex;
+    }
+.menu li {
+    display: ;
+    list-style: none;
+    margin-right: 10px;
+    color: white;
+}
+.menu img {
+    width: 51px;
+    height: 51px;
+}
 
 /* players and blogs */
 /* players  */
